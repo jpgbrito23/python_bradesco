@@ -1,0 +1,57 @@
+Módulo 1 
+
+-Variaveis são um espaço de memoria para guardar uma certa informação e ela pode ser variavel ou constante;
+-Algoritimos são uma sequencia de passos finitas para começar e terminar uma ação;
+-Tipos de dados : 
+		  - Nome de pessoas/caracter
+		  - Idade ou numeros/inteiros
+		  - Valor com pontos decimais/real
+		  - Verdadeiro ou falso/lógico ou booleano
+-Todo sistema é divido em entrada , processamento e saída
+-Existem os operadores padrões sendo eles:
+		  - Operador de Atribuição (=)
+		  - Operador Aritméticos ( +, -,*,/,**) 
+		  - Operadores Relacionais ( == , < , > , != , >= , <= )
+		  - Operadores Lógicos (or , not).
+Módulo 2
+
+-Linguagem interprtada é uma linguagem que é executada por um interpretador e depois pelo sistema operacional lendo linha por linha;
+-IDE sao lugares onde podemos escrever compilar e rodas nossos códigos;
+-Existem váris versoes do python e algumas delas sao específicas para determinado tipo de projeto que você irá implementar mas é sempre bom baixar a versão mais recente;
+-Primeiro comando para imprimir uma mensagem na tela é o comando print que vendo acompanho de ("")com a mensagem que você quer escrever dentro;
+
+Módulo 3
+
+-Variaveis são tipos de dados que sao armazenados na memoria e podem ser reaproveitados;
+-Em python uma variavel é sempre representada por um objeto sendo uma referencia;
+-Como python é uma linguagem interpretada não é necessário declarar o tipo da variavel;
+-Existem 4 principais tipos de dados:
+		  - Inteiro(int) : armazena número inteiros;
+		  - Real(float) : representa todos os números reais;
+		  - Booleano(bool) : armazena valores booleanos (False/True);
+		  - String(str) : armazena qualquer tipo de carcter entretanto que esteja em aspas;
+-Para entrada de dados fornecidada pelo o usuario em python utilizamos o input;
+-Nome = input("digite seu nome: ");
+-Por padrao a função input considera os dados recebidos como string entao para converter esses dados se forem necessario utilizamos int(input("digite o numero"));
+-Atalhos para auxiliar na formatação:
+		  - \n pula a linha;
+		  - \t insere tabulação horizontal;		
+		  - \v insere tabulação vertical;
+		  - \r equivale a tecla entre;
+
+Módulo 4
+
+-O python é uma linguagem que precisa de indentação , para arrumar o código , para o seu bom funcionamento tambem;
+-Em python a indentação é obrigatória nao so uma boa prática como nas outras linguagens;
+-Estrutura de decisao simples com if no python , se a condição for verdadeira retorna um valor e se for falsa retorna outro;
+-Estrutura simples de uma condição em python:
+	idade = int(input("Digite a sua idade: "))
+	if idade >= 18:
+ 	   print("Maior de idade") 
+	else:
+    	   print("Menor de idade")
+
+
+
+
+ 
